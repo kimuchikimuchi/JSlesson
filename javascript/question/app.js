@@ -118,8 +118,8 @@ let calc = {
 };
 
 calc.add(3,4);
-calc.subtract (13,3);
-calc.multiply (7,7);
+calc.subtract(13,3);
+calc.multiply(7,7);
 calc.divide (35,7);
 
 // Q9 返り値
@@ -176,7 +176,7 @@ if (num > 0) {
   console.log('num is greater than 0');
 } else if (num < 0) {
   console.log('num is less than 0');
-} else if (num === 0) {
+} else {
   console.log('num is 0');
 }
 
@@ -201,9 +201,9 @@ let mixed = [4, '2', 5, '8', '9', 0, 1];
 // Number 以外の時は not number
 
 for(let i =0; i < mixed.length; i++){
-  let mix = mixed[i];
-  if (typeof mix === 'number') {
-    if (mix % 2 === 0) {
+  let element = mixed[i];
+  if (typeof element === 'number') {
+    if (element % 2 === 0) {
       console.log('even');
     } else {
       console.log('odd');
